@@ -14,7 +14,7 @@ humantime: "09:00 - 13:00"    # human-readable times for the workshop (e.g., "9:
 startdate: 2020-09-16      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2020-09-24        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Esther Plomp", "Santosh Ilamparuthi", "Raul Ortiz Merino", "Marcel van den Broek"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["helper one", "helper two"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+helper: ["Mario Beck", "helper two"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["p.m.martinezlavanchy@tudelft.nl", "E.Plomp@tudelft.nl", "F.vanGiessen@tudelft.nl", "marcel.vandenbroek@tudelft.nl"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes: https://pad.carpentries.org/2020-09-016-delft # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
@@ -37,7 +37,7 @@ And run 'make workshop-check' *before* committing to make sure that changes are 
 For a workshop please delete the following block until the next dashed-line
 {% endcomment %}
 
-
+{% comment %}
 <div class="alert alert-danger">
 This is the workshop template. Delete these lines and use it to
 <a href="https://carpentries.github.io/workshop-template/customization/index.html">customize</a>
@@ -47,6 +47,7 @@ in a workshop request yet, please also fill in
 to let us know about your workshop and our administrator may contact you if we
 need any extra information.
 </div>
+{% endcomment %}
 
 {% comment %}
 8< ============================= until here ==================
